@@ -1,0 +1,17 @@
+<title>Inicio</title>
+<h1>Inicio</h1>
+
+<script type="text/javascript">
+	function login()
+	{
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+
+		if(username == "hola" && password == "holamundo")
+			location.href = "home.html";
+	}
+</script>
+
+<input id="username" type="text">
+<input id="password" type="password">
+<input id="send" type="button" onclick="login()" value="Enviar">

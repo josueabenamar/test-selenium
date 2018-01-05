@@ -1,0 +1,8 @@
+{
+	"name": "SeleniumNodeJS",
+	"main": "test.js",
+	"dependencies":
+	{
+		"selenium-webdriver": "*"
+	}
+}
